@@ -1,9 +1,4 @@
-﻿
-
-
-
-
-spisok=[] #пустой список
+﻿spisok=[] #пустой список
 numbers=[1,2,3,4,5]
 abc=["Abc","B","C"]
 slovo="Programmerimine"
@@ -20,6 +15,7 @@ while True:
     print("8 - Изменяет на нижний регистр весь лист ")
     print("9 - Изменяет на верхний регистр весь лист ")
     print("10 - Введите позицию, которую удалить")
+    print("11 - Возвращает положение первого элемента от start до end со значением x")
     valik=int(input())
     if valik==1:
         a=input("Введи букву ")
@@ -70,4 +66,11 @@ while True:
         if a>=0 and a<len(listcopy3_list):
             listcopy3_list.pop(a-1)
         print(listcopy3_list)
+    elif valik==11:
+       slovo
+       k=input("Какой буквы вы хотите узнать индекс? ")
+       v=slovo.index(k)
+       print(v)
     print(slovo_list)
+
+      
